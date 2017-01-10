@@ -1,0 +1,11 @@
+name 'csg_chef_server_ctl'
+maintainer 'Stephen Lauck'
+maintainer_email 'lauck@chef.io'
+license 'all_rights'
+description 'Installs/Configures chef-server-ctl'
+long_description 'Installs/Configures chef-server-ctl'
+version '0.1.0'
+depends 'csg_chef_server'
+
+issues_url       'https://jira.csgicorp.com/projects/AA/issues'
+source_url		 'http://stash.csgsystems.com/projects/ASA/repos/chefinfra/browse/Chef'
