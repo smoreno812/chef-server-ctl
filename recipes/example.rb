@@ -4,8 +4,8 @@
 #
 # Copyright (c) 2015 The Authors, All Rights Reserved.
 
-include_recipe 'csg_chef_server'
-#include_recipe 'chef-server::addons'
+include_recipe 'chef-server'
+include_recipe 'chef-server::addons'
 
 chef_server_user 'testuser' do
   firstname 'Test'

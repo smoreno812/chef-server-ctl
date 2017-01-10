@@ -4,16 +4,16 @@
 # https://github.com/opscode/chef-dk/blob/master/POLICYFILE_README.md
 
 # A name that describes what the system you're building with Chef does.
-name "chef-server-ctl"
+name "csg_chef_server_ctl"
 
 # Where to find external cookbooks:
 default_source :supermarket
 
 # run_list: chef-client will run these recipes in the order specified.
-run_list "chef-server-ctl::example"
+run_list "csg_chef_server_ctl::example"
 
 # Specify a custom source for a single cookbook:
-cookbook "chef-server-ctl", path: "."
+cookbook "csg_chef_server_ctl", path: "."
 
 default['chef-server']['api_fqdn'] = 'chef.example.com'
 default['chef-server']['addons'] = [
