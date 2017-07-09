@@ -1,4 +1,4 @@
-name 'chef_server_ctl'
+name 'chef-server-ctl'
 maintainer 'Stephen Lauck'
 maintainer_email 'lauck@chef.io'
 license 'all_rights'
